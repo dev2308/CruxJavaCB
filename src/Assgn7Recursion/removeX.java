@@ -17,8 +17,8 @@ public class removeX {
 		StringBuilder sb = new StringBuilder(str);
 		int i = 0;
 		while (i != str.length()) {
-			if (sb.charAt(i) == 'x') {
-				char ch = sb.charAt(i);
+			if (str.charAt(i) == 'x') {
+				char ch = str.charAt(i);
 				sb.deleteCharAt(i);
 				sb.append(ch);
 				System.out.println(sb);
